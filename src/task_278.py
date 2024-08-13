@@ -1,4 +1,5 @@
 import math
+from collections import Counter
 
 
 class Solution:
@@ -23,4 +24,3 @@ def isBadVersion(n, bad=1):
     if n >= bad:
         return True
     return False
-
